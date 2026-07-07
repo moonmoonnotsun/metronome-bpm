@@ -394,6 +394,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -705,8 +728,8 @@
     <section class="app-section app-section-alt" id="screenshots">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">실제 사례 보기</h2>
-                <p class="section-subtitle">음악가를 위해 디자인된 깨끗하고 현대적인 인터페이스를 경험해보세요</p>
+                <h2 class="section-title">스크린샷</h2>
+                <p class="section-subtitle">음악가를 위해 제작된 깨끗하고 현대적인 인터페이스</p>
             </div>
         </div>
         <div class="screenshots-carousel" aria-label="App screenshots">
@@ -829,7 +852,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">메트로놈 - 음악 템포 BPM</span>
                 </div>
-                                                                <div class="footer-lang">
+                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">언어</label>
                     <select id="lang-select" class="lang-select" aria-label="언어">
                         <option value="/">EN</option>

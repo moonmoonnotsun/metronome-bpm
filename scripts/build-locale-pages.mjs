@@ -396,9 +396,9 @@ function buildLocalePage(code) {
     html = html.replace(match[0], replacement);
   });
 
-  html = html.replace(/<h2 class="section-title">See It In Action<\/h2>/, `<h2 class="section-title">${o.sectionScreenshotsTitle}</h2>`);
+  html = html.replace(/<h2 class="section-title">Screenshots<\/h2>/, `<h2 class="section-title">${o.sectionScreenshotsTitle}</h2>`);
   html = html.replace(
-    /<p class="section-subtitle">Experience the clean, modern interface designed for musicians<\/p>/,
+    /<p class="section-subtitle">Clean, modern interface built for musicians<\/p>/,
     `<p class="section-subtitle">${o.sectionScreenshotsSubtitle}</p>`,
   );
 

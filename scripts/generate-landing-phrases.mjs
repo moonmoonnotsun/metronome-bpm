@@ -88,7 +88,17 @@ const CURATED_OVERRIDES = {
     sectionAboutTitleAccent: 'метроном',
     sectionAboutCopyAfter:
       ' - метроном BPM для iPhone: tap tempo, размеры, субделения, пресеты и понятный интерфейс.',
+    sectionScreenshotsTitle: 'Скриншоты',
+    sectionScreenshotsSubtitle: 'Простой интерфейс для музыкантов',
+    sectionAboutCopy:
+      'Метроном задаёт ровный темп, пока вы играете гаммы, песни или упражнения. ',
+    faqTitle: 'Метроном ',
+    faqTitleAccent: 'FAQ',
+    faqSubtitle: 'Ответы на частые вопросы о метрономе для iPhone',
     faq3Q: 'Есть ли tap tempo?',
+    faq3A: 'Да. Отбивайте ритм - приложение сразу выставит BPM.',
+    faq6A:
+      'Метроном BPM совмещает настройку темпа и звуковой отсчёт. Это приложение делает и то, и другое.',
     feature2Title: 'Tap tempo',
     feature2Desc: 'Отбивайте ритм - приложение сразу выставит BPM. Просто и точно.',
     ctaDescriptionAfter:
@@ -97,10 +107,14 @@ const CURATED_OVERRIDES = {
   pl: {
     heroH1Before: 'Metronom dla ',
     heroH1Highlight: 'muzyków',
+    sectionScreenshotsTitle: 'Zrzuty ekranu',
+    sectionScreenshotsSubtitle: 'Prosty interfejs dla muzyków',
   },
   uk: {
     heroH1Before: 'Метроном для ',
     heroH1Highlight: 'музикантів',
+    sectionScreenshotsTitle: 'Скріншоти',
+    sectionScreenshotsSubtitle: 'Простий інтерфейс для музикантів',
     feature2Title: 'Tap tempo',
     faq3Q: 'Чи є tap tempo?',
     ctaDescriptionAfter:
@@ -154,9 +168,8 @@ function buildEnglishTemplates() {
     sectionFeaturesLine2: 'zero distractions',
     sectionFeaturesSubtitle:
       'Everything you need for perfect timing. From simple practice to complex rhythm training, all in one clean app.',
-    sectionScreenshotsTitle: 'See It In Action',
-    sectionScreenshotsSubtitle:
-      'Experience the clean, modern interface designed for musicians',
+    sectionScreenshotsTitle: 'Screenshots',
+    sectionScreenshotsSubtitle: 'Clean, modern interface built for musicians',
     sectionAboutTitle: 'What Is a ',
     sectionAboutTitleAccent: 'Metronome App',
     sectionAboutCopy:

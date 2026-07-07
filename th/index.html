@@ -394,6 +394,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -705,8 +728,8 @@
     <section class="app-section app-section-alt" id="screenshots">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">ดูมันในการดำเนินการ</h2>
-                <p class="section-subtitle">สัมผัสอินเทอร์เฟซที่สะอาดตาและทันสมัยที่ออกแบบมาสำหรับนักดนตรี</p>
+                <h2 class="section-title">ภาพหน้าจอ</h2>
+                <p class="section-subtitle">อินเทอร์เฟซที่สะอาดตาและทันสมัยสร้างขึ้นสำหรับนักดนตรี</p>
             </div>
         </div>
         <div class="screenshots-carousel" aria-label="App screenshots">
@@ -829,7 +852,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">เมโทรนอม - เทมโปดนตรี BPM</span>
                 </div>
-                                                                <div class="footer-lang">
+                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">ภาษา</label>
                     <select id="lang-select" class="lang-select" aria-label="ภาษา">
                         <option value="/">EN</option>

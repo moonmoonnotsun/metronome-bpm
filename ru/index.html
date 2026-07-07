@@ -394,6 +394,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -488,7 +511,7 @@
                             "name": "Есть ли tap tempo?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Да. Коснитесь любого ритма, и приложение мгновенно установит BPM."
+                                      "text": "Да. Отбивайте ритм - приложение сразу выставит BPM."
                             }
                   },
                   {
@@ -512,7 +535,7 @@
                             "name": "Метроном и приложение BPM - одно и то же?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Приложение метронома BPM сочетает в себе управление темпом и трекинг кликов. Это приложение сочетает в себе обе функции: точный BPM и полноценный метроном для iPhone."
+                                      "text": "Метроном BPM совмещает настройку темпа и звуковой отсчёт. Это приложение делает и то, и другое."
                             }
                   }
         ]
@@ -705,8 +728,8 @@
     <section class="app-section app-section-alt" id="screenshots">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Посмотрите это в действии</h2>
-                <p class="section-subtitle">Испытайте чистый, современный интерфейс, разработанный для музыкантов.</p>
+                <h2 class="section-title">Скриншоты</h2>
+                <p class="section-subtitle">Простой интерфейс для музыкантов</p>
             </div>
         </div>
         <div class="screenshots-carousel" aria-label="App screenshots">
@@ -735,7 +758,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Что такое<span class="title-accent">метроном</span>?</h2>
-                <p class="section-subtitle about-copy">Приложение метронома поддерживает постоянный темп, пока вы разучиваете гаммы, песни или упражнения. <a href="https://apps.apple.com/ru/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Метроном - Темп музыки BPM</a> - метроном BPM для iPhone: tap tempo, размеры, субделения, пресеты и понятный интерфейс.</p>
+                <p class="section-subtitle about-copy">Метроном задаёт ровный темп, пока вы играете гаммы, песни или упражнения. <a href="https://apps.apple.com/ru/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Метроном - Темп музыки BPM</a> - метроном BPM для iPhone: tap tempo, размеры, субделения, пресеты и понятный интерфейс.</p>
             </div>
         </div>
     </section>
@@ -743,8 +766,8 @@
     <section class="app-section app-section-alt" id="faq">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Приложение Метроном<span class="title-accent">Часто задаваемые вопросы</span></h2>
-                <p class="section-subtitle">Распространенные вопросы о нашем приложении метронома для iPhone</p>
+                <h2 class="section-title">Метроном <span class="title-accent">FAQ</span></h2>
+                <p class="section-subtitle">Ответы на частые вопросы о метрономе для iPhone</p>
             </div>
             <div class="faq-list">
                 <details class="faq-item">
@@ -771,7 +794,7 @@
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
-                        <p class="faq-answer">Да. Коснитесь любого ритма, и приложение мгновенно установит BPM.</p>
+                        <p class="faq-answer">Да. Отбивайте ритм - приложение сразу выставит BPM.</p>
                     </div>
                 </details>
                 <details class="faq-item">
@@ -798,7 +821,7 @@
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
-                        <p class="faq-answer">Приложение метронома BPM сочетает в себе управление темпом и трекинг кликов. Это приложение сочетает в себе обе функции: точный BPM и полноценный метроном для iPhone.</p>
+                        <p class="faq-answer">Метроном BPM совмещает настройку темпа и звуковой отсчёт. Это приложение делает и то, и другое.</p>
                     </div>
                 </details>
             </div>
@@ -829,7 +852,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Метроном - Темп музыки BPM</span>
                 </div>
-                                                                <div class="footer-lang">
+                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Язык</label>
                     <select id="lang-select" class="lang-select" aria-label="Язык">
                         <option value="/">EN</option>

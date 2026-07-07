@@ -394,6 +394,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -705,8 +728,8 @@
     <section class="app-section app-section-alt" id="screenshots">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Se det i aktion</h2>
-                <p class="section-subtitle">Oplev den rene, moderne grænseflade designet til musikere</p>
+                <h2 class="section-title">Skærmbilleder</h2>
+                <p class="section-subtitle">Ren, moderne grænseflade bygget til musikere</p>
             </div>
         </div>
         <div class="screenshots-carousel" aria-label="App screenshots">
@@ -829,7 +852,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronom - Musik tempo BPM</span>
                 </div>
-                                                                <div class="footer-lang">
+                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Sprog</label>
                     <select id="lang-select" class="lang-select" aria-label="Sprog">
                         <option value="/">EN</option>
