@@ -85,6 +85,7 @@ const CURATED_OVERRIDES = {
     sectionFeaturesLine2: 'без отвлечений',
     sectionFeaturesSubtitle:
       'Всё для точного ритма - от простых упражнений до сложной тренировки в одном приложении.',
+    sectionAboutTitle: 'Что такое ',
     sectionAboutTitleAccent: 'метроном',
     sectionAboutCopyAfter:
       ' - метроном BPM для iPhone: tap tempo, размеры, субделения, пресеты и понятный интерфейс.',
