@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "Este această aplicație de metronom gratuită?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Da - descărcare gratuită din App Store. Funcțiile premium sunt achiziții opționale în aplicație."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Are tap tempo?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Da. Atingeți pe orice ritm și aplicația setează instantaneu BPM-ul."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Ce semnături de timp sunt acceptate?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 și 12/8 - plus subdiviziuni cum ar fi sfertul, optulea, tripletul și notele a șaisprezecea."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "Pot salva presetări?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "Da. Salvați combinațiile BPM, semnătura de timp și subdiviziune pentru acces rapid în timpul antrenamentului."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Aplicația Metronome vs BPM - același lucru?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "O aplicație de metronom BPM combină controlul tempoului cu o pistă de clic. Această aplicație acoperă ambele - BPM precis cu un metronom complet pentru iPhone."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Este această aplicație de metronom gratuită?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Da - descărcare gratuită din App Store. Funcțiile premium sunt achiziții opționale în aplicație.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Are tap tempo?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Da. Atingeți pe orice ritm și aplicația setează instantaneu BPM-ul.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Ce semnături de timp sunt acceptate?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 și 12/8 - plus subdiviziuni cum ar fi sfertul, optulea, tripletul și notele a șaisprezecea.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">Pot salva presetări?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">Da. Salvați combinațiile BPM, semnătura de timp și subdiviziune pentru acces rapid în timpul antrenamentului.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Aplicația Metronome vs BPM - același lucru?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">O aplicație de metronom BPM combină controlul tempoului cu o pistă de clic. Această aplicație acoperă ambele - BPM precis cu un metronom complet pentru iPhone.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronom - Tempo muzică BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Limbă</label>
                     <select id="lang-select" class="lang-select" aria-label="Limbă">
                         <option value="/">EN</option>

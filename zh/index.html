@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "这个节拍器应用程序是免费的吗？",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "是的 - 在 App Store 上免费下载。高级功能是可选的应用内购买。"
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "有节奏吗？",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "是的。跟随任何节奏轻按，应用程序会立即设置 BPM。"
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "支持哪些拍号？",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4、3/4、4/4、5/4、6/8、7/8、9/8 和 12/8 - 以及四分音符、八分音符、三连音和十六分音符等细分。"
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "我可以保存预设吗？",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "是的。保存 BPM、拍号和细分组合，以便在练习期间快速访问。"
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Metronome 与 BPM 应用程序 - 一样吗？",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "BPM 节拍器应用程序将速度控制与节拍音轨相结合。该应用程序涵盖了两者 - 精确的 BPM 和适用于 iPhone 的完整节拍器。"
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">这个节拍器应用程序是免费的吗？</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">是的 - 在 App Store 上免费下载。高级功能是可选的应用内购买。</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">有节奏吗？</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">是的。跟随任何节奏轻按，应用程序会立即设置 BPM。</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">支持哪些拍号？</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4、3/4、4/4、5/4、6/8、7/8、9/8 和 12/8 - 以及四分音符、八分音符、三连音和十六分音符等细分。</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">我可以保存预设吗？</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">是的。保存 BPM、拍号和细分组合，以便在练习期间快速访问。</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Metronome 与 BPM 应用程序 - 一样吗？</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">BPM 节拍器应用程序将速度控制与节拍音轨相结合。该应用程序涵盖了两者 - 精确的 BPM 和适用于 iPhone 的完整节拍器。</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">节拍器 - 音乐速度 BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">语言</label>
                     <select id="lang-select" class="lang-select" aria-label="语言">
                         <option value="/">EN</option>

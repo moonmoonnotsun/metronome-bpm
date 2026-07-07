@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "Cette application de métronome est-elle gratuite ?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Oui - téléchargement gratuit sur l'App Store. Les fonctionnalités Premium sont des achats intégrés facultatifs."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Est-ce qu'il y a du tap tempo ?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Oui. Appuyez sur n'importe quel rythme et l'application définit le BPM instantanément."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Quelles signatures rythmiques sont prises en charge ?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 et 12/8 - plus des subdivisions comme les noires, les croches, les triolets et les doubles croches."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "Puis-je enregistrer les préréglages ?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "Oui. Enregistrez les combos BPM, signature rythmique et subdivision pour un accès rapide pendant la pratique."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Application Métronome vs BPM - même chose ?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Une application de métronome BPM combine le contrôle du tempo avec une piste de clic. Cette application couvre les deux : un BPM précis avec un métronome complet pour iPhone."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Cette application de métronome est-elle gratuite ?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Oui - téléchargement gratuit sur l'App Store. Les fonctionnalités Premium sont des achats intégrés facultatifs.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Est-ce qu'il y a du tap tempo ?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Oui. Appuyez sur n'importe quel rythme et l'application définit le BPM instantanément.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Quelles signatures rythmiques sont prises en charge ?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 et 12/8 - plus des subdivisions comme les noires, les croches, les triolets et les doubles croches.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">Puis-je enregistrer les préréglages ?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">Oui. Enregistrez les combos BPM, signature rythmique et subdivision pour un accès rapide pendant la pratique.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Application Métronome vs BPM - même chose ?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Une application de métronome BPM combine le contrôle du tempo avec une piste de clic. Cette application couvre les deux : un BPM précis avec un métronome complet pour iPhone.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Métronome - Tempo musique BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Langue</label>
                     <select id="lang-select" class="lang-select" aria-label="Langue">
                         <option value="/">EN</option>

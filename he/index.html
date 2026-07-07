@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "האם אפליקציית המטרונום הזו חינמית?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "כן - הורדה חינם ב-App Store. תכונות פרימיום הן רכישות אופציונליות בתוך האפליקציה."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "יש לו טאפ טמפו?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "כֵּן. הקש יחד עם כל קצב והאפליקציה מגדירה את ה-BPM באופן מיידי."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "אילו חתימות זמן נתמכות?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 ו-12/8 - בתוספת חלוקות משנה כמו תווים רבע, שמינית, שלישיה וששה עשר."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "האם אני יכול לשמור הגדרות קבועות מראש?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "כֵּן. שמור שילובי BPM, חתימת זמן וחלוקת משנה לגישה מהירה במהלך האימון."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "אפליקציית Metronome vs BPM - אותו דבר?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "אפליקציית מטרונום BPM משלבת בקרת קצב עם רצועת קליקים. האפליקציה הזו מכסה את שניהם - BPM מדויק עם מטרונום מלא לאייפון."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">האם אפליקציית המטרונום הזו חינמית?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">כן - הורדה חינם ב-App Store. תכונות פרימיום הן רכישות אופציונליות בתוך האפליקציה.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">יש לו טאפ טמפו?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">כֵּן. הקש יחד עם כל קצב והאפליקציה מגדירה את ה-BPM באופן מיידי.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">אילו חתימות זמן נתמכות?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 ו-12/8 - בתוספת חלוקות משנה כמו תווים רבע, שמינית, שלישיה וששה עשר.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">האם אני יכול לשמור הגדרות קבועות מראש?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">כֵּן. שמור שילובי BPM, חתימת זמן וחלוקת משנה לגישה מהירה במהלך האימון.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">אפליקציית Metronome vs BPM - אותו דבר?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">אפליקציית מטרונום BPM משלבת בקרת קצב עם רצועת קליקים. האפליקציה הזו מכסה את שניהם - BPM מדויק עם מטרונום מלא לאייפון.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">מטרונום - טמפו מוזיקה BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">שפה</label>
                     <select id="lang-select" class="lang-select" aria-label="שפה">
                         <option value="/">EN</option>

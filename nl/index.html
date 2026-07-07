@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "Is deze metronoom-app gratis?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Ja - gratis download in de App Store. Premiumfuncties zijn optionele in-app-aankopen."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Heeft het taptempo?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Ja. Tik mee met een willekeurig ritme en de app stelt de BPM onmiddellijk in."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Welke maatsoorten worden ondersteund?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 en 12/8 - plus onderverdelingen zoals kwart-, achtste-, triool- en zestiende noten."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "Kan ik voorinstellingen opslaan?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "Ja. Bewaar BPM, maatsoort en onderverdelingscombo's voor snelle toegang tijdens het oefenen."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Metronoom versus BPM-app - hetzelfde?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Een BPM-metronoomapp combineert tempocontrole met een clicktrack. Deze app omvat beide: nauwkeurige BPM met een volledige metronoom voor iPhone."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Is deze metronoom-app gratis?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Ja - gratis download in de App Store. Premiumfuncties zijn optionele in-app-aankopen.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Heeft het taptempo?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Ja. Tik mee met een willekeurig ritme en de app stelt de BPM onmiddellijk in.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Welke maatsoorten worden ondersteund?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 en 12/8 - plus onderverdelingen zoals kwart-, achtste-, triool- en zestiende noten.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">Kan ik voorinstellingen opslaan?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">Ja. Bewaar BPM, maatsoort en onderverdelingscombo's voor snelle toegang tijdens het oefenen.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Metronoom versus BPM-app - hetzelfde?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Een BPM-metronoomapp combineert tempocontrole met een clicktrack. Deze app omvat beide: nauwkeurige BPM met een volledige metronoom voor iPhone.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronoom - Muziek tempo BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Taal</label>
                     <select id="lang-select" class="lang-select" aria-label="Taal">
                         <option value="/">EN</option>

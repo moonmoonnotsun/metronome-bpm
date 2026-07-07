@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "Je táto aplikácia metronómu bezplatná?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Áno - bezplatné stiahnutie z App Store. Prémiové funkcie sú voliteľné nákupy v aplikácii."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Má to tap tempo?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "áno. Klepnite na ľubovoľný rytmus a aplikácia okamžite nastaví BPM."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Aké taktové znaky sú podporované?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 a 12/8 - plus podrozdelenia ako štvrťové, osminové, trojité a šestnáste noty."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "Môžem uložiť predvoľby?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "áno. Uložte si kombá BPM, takt a podrozdelenie pre rýchly prístup počas cvičenia."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Aplikácia Metronome vs BPM - to isté?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Aplikácia BPM metronómu kombinuje ovládanie tempa s klikacou stopou. Táto aplikácia pokrýva oboje - presné BPM s úplným metronómom pre iPhone."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Je táto aplikácia metronómu bezplatná?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Áno - bezplatné stiahnutie z App Store. Prémiové funkcie sú voliteľné nákupy v aplikácii.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Má to tap tempo?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">áno. Klepnite na ľubovoľný rytmus a aplikácia okamžite nastaví BPM.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Aké taktové znaky sú podporované?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 a 12/8 - plus podrozdelenia ako štvrťové, osminové, trojité a šestnáste noty.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">Môžem uložiť predvoľby?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">áno. Uložte si kombá BPM, takt a podrozdelenie pre rýchly prístup počas cvičenia.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Aplikácia Metronome vs BPM - to isté?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Aplikácia BPM metronómu kombinuje ovládanie tempa s klikacou stopou. Táto aplikácia pokrýva oboje - presné BPM s úplným metronómom pre iPhone.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronóm - Tempo hudby BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Jazyk</label>
                     <select id="lang-select" class="lang-select" aria-label="Jazyk">
                         <option value="/">EN</option>

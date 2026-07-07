@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "Er denne metronom-app gratis?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Ja - gratis download i App Store. Premium-funktioner er valgfri køb i appen."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Har den taptempo?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Ja. Tryk på en hvilken som helst rytme, og appen indstiller BPM øjeblikkeligt."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Hvilke taktarter understøttes?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 og 12/8 - plus underafdelinger som kvart, ottende, triol og sekstende noder."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "Kan jeg gemme forudindstillinger?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "Ja. Gem BPM, taktart og underinddelingskombinationer for hurtig adgang under træning."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Metronome vs BPM app - samme ting?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "En BPM metronom app kombinerer tempokontrol med et klikspor. Denne app dækker begge dele - præcis BPM med en fuld metronom til iPhone."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Er denne metronom-app gratis?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Ja - gratis download i App Store. Premium-funktioner er valgfri køb i appen.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Har den taptempo?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Ja. Tryk på en hvilken som helst rytme, og appen indstiller BPM øjeblikkeligt.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Hvilke taktarter understøttes?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 og 12/8 - plus underafdelinger som kvart, ottende, triol og sekstende noder.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">Kan jeg gemme forudindstillinger?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">Ja. Gem BPM, taktart og underinddelingskombinationer for hurtig adgang under træning.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Metronome vs BPM app - samme ting?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">En BPM metronom app kombinerer tempokontrol med et klikspor. Denne app dækker begge dele - præcis BPM med en fuld metronom til iPhone.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronom - Musik tempo BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Sprog</label>
                     <select id="lang-select" class="lang-select" aria-label="Sprog">
                         <option value="/">EN</option>

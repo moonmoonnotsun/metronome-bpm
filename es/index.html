@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "¿Esta aplicación de metrónomo es gratuita?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Sí, descarga gratuita en la App Store. Las funciones premium son compras opcionales dentro de la aplicación."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "¿Tiene tap tempo?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Sí. Toca cualquier ritmo y la aplicación establece el BPM al instante."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "¿Qué firmas de compás son compatibles?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 y 12/8, además de subdivisiones como negras, corcheas, tresillos y semicorcheas."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "¿Puedo guardar ajustes preestablecidos?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "Sí. Guarde combinaciones de BPM, tipo de compás y subdivisión para acceder rápidamente durante la práctica."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Aplicación Metrónomo vs BPM: ¿lo mismo?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Una aplicación de metrónomo BPM combina el control del tempo con una pista de clic. Esta aplicación cubre ambos: BPM precisos con un metrónomo completo para iPhone."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">¿Esta aplicación de metrónomo es gratuita?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Sí, descarga gratuita en la App Store. Las funciones premium son compras opcionales dentro de la aplicación.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">¿Tiene tap tempo?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Sí. Toca cualquier ritmo y la aplicación establece el BPM al instante.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">¿Qué firmas de compás son compatibles?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 y 12/8, además de subdivisiones como negras, corcheas, tresillos y semicorcheas.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">¿Puedo guardar ajustes preestablecidos?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">Sí. Guarde combinaciones de BPM, tipo de compás y subdivisión para acceder rápidamente durante la práctica.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Aplicación Metrónomo vs BPM: ¿lo mismo?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Una aplicación de metrónomo BPM combina el control del tempo con una pista de clic. Esta aplicación cubre ambos: BPM precisos con un metrónomo completo para iPhone.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metrónomo - Tempo música BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Idioma</label>
                     <select id="lang-select" class="lang-select" aria-label="Idioma">
                         <option value="/">EN</option>

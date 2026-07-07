@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "แอพเครื่องเมตรอนอมนี้ฟรีหรือเปล่า?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "ใช่ ดาวน์โหลดฟรีบน App Store คุณสมบัติพิเศษคือการซื้อเสริมในแอป"
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "มันมีจังหวะแทปมั้ย?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "ใช่. แตะตามจังหวะใดก็ได้แล้วแอปจะตั้งค่า BPM ทันที"
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "รองรับลายเซ็นเวลาใดบ้าง",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 และ 12/8 - บวกการแบ่งย่อย เช่น ควอเตอร์ แปด โน้ตสาม และโน้ตที่สิบหก"
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "ฉันสามารถบันทึกค่าที่ตั้งไว้ล่วงหน้าได้หรือไม่?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "ใช่. บันทึก BPM ลายเซ็นเวลา และคอมโบการแบ่งย่อยเพื่อการเข้าถึงที่รวดเร็วระหว่างการฝึกซ้อม"
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "แอพ Metronome กับ BPM - สิ่งเดียวกันเหรอ?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "แอพเครื่องเมตรอนอม BPM ผสมผสานการควบคุมจังหวะเข้ากับแทร็กการคลิก แอพนี้ครอบคลุมทั้ง - BPM ที่แม่นยำพร้อมเครื่องเมตรอนอมเต็มรูปแบบสำหรับ iPhone"
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">แอพเครื่องเมตรอนอมนี้ฟรีหรือเปล่า?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">ใช่ ดาวน์โหลดฟรีบน App Store คุณสมบัติพิเศษคือการซื้อเสริมในแอป</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">มันมีจังหวะแทปมั้ย?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">ใช่. แตะตามจังหวะใดก็ได้แล้วแอปจะตั้งค่า BPM ทันที</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">รองรับลายเซ็นเวลาใดบ้าง</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 และ 12/8 - บวกการแบ่งย่อย เช่น ควอเตอร์ แปด โน้ตสาม และโน้ตที่สิบหก</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">ฉันสามารถบันทึกค่าที่ตั้งไว้ล่วงหน้าได้หรือไม่?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">ใช่. บันทึก BPM ลายเซ็นเวลา และคอมโบการแบ่งย่อยเพื่อการเข้าถึงที่รวดเร็วระหว่างการฝึกซ้อม</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">แอพ Metronome กับ BPM - สิ่งเดียวกันเหรอ?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">แอพเครื่องเมตรอนอม BPM ผสมผสานการควบคุมจังหวะเข้ากับแทร็กการคลิก แอพนี้ครอบคลุมทั้ง - BPM ที่แม่นยำพร้อมเครื่องเมตรอนอมเต็มรูปแบบสำหรับ iPhone</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">เมโทรนอม - เทมโปดนตรี BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">ภาษา</label>
                     <select id="lang-select" class="lang-select" aria-label="ภาษา">
                         <option value="/">EN</option>

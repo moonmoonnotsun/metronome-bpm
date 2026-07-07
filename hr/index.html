@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "Je li ova aplikacija metronom besplatna?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Da - besplatno preuzimanje na App Storeu. Premium značajke su neobavezne kupnje putem aplikacije."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Ima li tap tempo?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Da. Dodirnite bilo koji ritam i aplikacija trenutno postavlja BPM."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Koji su vremenski potpisi podržani?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 i 12/8 - plus pododjeljci kao što su četvrtina, osmina, trostruka i šesnaestica."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "Mogu li spremiti unaprijed postavljene postavke?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "Da. Spremite kombinacije BPM-a, takta i podjela za brzi pristup tijekom vježbanja."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Metronom vs BPM aplikacija - ista stvar?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Aplikacija BPM metronoma kombinira kontrolu tempa sa stazom klikanja. Ova aplikacija pokriva oboje - precizan BPM s punim metronomom za iPhone."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Je li ova aplikacija metronom besplatna?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Da - besplatno preuzimanje na App Storeu. Premium značajke su neobavezne kupnje putem aplikacije.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Ima li tap tempo?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Da. Dodirnite bilo koji ritam i aplikacija trenutno postavlja BPM.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Koji su vremenski potpisi podržani?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 i 12/8 - plus pododjeljci kao što su četvrtina, osmina, trostruka i šesnaestica.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">Mogu li spremiti unaprijed postavljene postavke?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">Da. Spremite kombinacije BPM-a, takta i podjela za brzi pristup tijekom vježbanja.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Metronom vs BPM aplikacija - ista stvar?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Aplikacija BPM metronoma kombinira kontrolu tempa sa stazom klikanja. Ova aplikacija pokriva oboje - precizan BPM s punim metronomom za iPhone.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronom - Tempo glazbe BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Jezik</label>
                     <select id="lang-select" class="lang-select" aria-label="Jezik">
                         <option value="/">EN</option>

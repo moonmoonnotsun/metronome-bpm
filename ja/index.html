@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "このメトロノームアプリは無料ですか？",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "はい - App Store から無料でダウンロードできます。プレミアム機能はオプションのアプリ内購入です。"
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "タップテンポはありますか？",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "はい。任意のリズムに合わせてタップすると、アプリが BPM を即座に設定します。"
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "どのような拍子記号がサポートされていますか?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4、3/4、4/4、5/4、6/8、7/8、9/8、12/8 - 加えて、4 分音符、8 分音符、3 連符、16 分音符などの細分化も可能です。"
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "プリセットを保存できますか?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "はい。 BPM、拍子記号、サブディビジョンのコンボを保存して、練習中にすぐにアクセスできるようにします。"
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "メトロノームと BPM アプリ - 同じことですか?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "BPM メトロノーム アプリは、テンポ コントロールとクリック トラックを組み合わせたものです。このアプリは、正確な BPM と iPhone 用の完全なメトロノームの両方をカバーします。"
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">このメトロノームアプリは無料ですか？</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">はい - App Store から無料でダウンロードできます。プレミアム機能はオプションのアプリ内購入です。</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">タップテンポはありますか？</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">はい。任意のリズムに合わせてタップすると、アプリが BPM を即座に設定します。</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">どのような拍子記号がサポートされていますか?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4、3/4、4/4、5/4、6/8、7/8、9/8、12/8 - 加えて、4 分音符、8 分音符、3 連符、16 分音符などの細分化も可能です。</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">プリセットを保存できますか?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">はい。 BPM、拍子記号、サブディビジョンのコンボを保存して、練習中にすぐにアクセスできるようにします。</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">メトロノームと BPM アプリ - 同じことですか?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">BPM メトロノーム アプリは、テンポ コントロールとクリック トラックを組み合わせたものです。このアプリは、正確な BPM と iPhone 用の完全なメトロノームの両方をカバーします。</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">メトロノーム - 音楽のテンポ BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">言語</label>
                     <select id="lang-select" class="lang-select" aria-label="言語">
                         <option value="/">EN</option>

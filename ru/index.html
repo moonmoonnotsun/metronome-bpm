@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "Это приложение метронома бесплатное?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Да, скачать бесплатно в App Store. Премиум-функции - это дополнительные покупки в приложении."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Есть ли tap tempo?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Да. Отбивайте ритм - приложение сразу выставит BPM."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Какие размеры поддерживаются?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 и 12/8 - плюс такие подразделения, как четвертная, восьмая, триоль и шестнадцатая ноты."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "Могу ли я сохранить пресеты?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "Да. Сохраните комбинации BPM, тактового размера и подразделений для быстрого доступа во время практики."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Метроном и приложение BPM - одно и то же?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Метроном BPM совмещает настройку темпа и звуковой отсчёт. Это приложение делает и то, и другое."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Это приложение метронома бесплатное?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Да, скачать бесплатно в App Store. Премиум-функции - это дополнительные покупки в приложении.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Есть ли tap tempo?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Да. Отбивайте ритм - приложение сразу выставит BPM.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Какие размеры поддерживаются?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 и 12/8 - плюс такие подразделения, как четвертная, восьмая, триоль и шестнадцатая ноты.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">Могу ли я сохранить пресеты?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">Да. Сохраните комбинации BPM, тактового размера и подразделений для быстрого доступа во время практики.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Метроном и приложение BPM - одно и то же?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Метроном BPM совмещает настройку темпа и звуковой отсчёт. Это приложение делает и то, и другое.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Метроном - Темп музыки BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Язык</label>
                     <select id="lang-select" class="lang-select" aria-label="Язык">
                         <option value="/">EN</option>

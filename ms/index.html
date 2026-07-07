@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "Adakah aplikasi metronom ini percuma?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Ya - muat turun percuma di App Store. Ciri premium ialah pembelian dalam apl pilihan."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Adakah ia mempunyai tempo ketuk?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "ya. Ketik bersama pada mana-mana irama dan apl menetapkan BPM serta-merta."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Apakah tandatangan masa yang disokong?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 dan 12/8 - ditambah dengan pecahan seperti nota suku, lapan, tiga kali ganda dan enam belas."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "Bolehkah saya menyimpan pratetap?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "ya. Simpan kombo BPM, tandatangan masa dan subbahagian untuk akses pantas semasa latihan."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Metronome vs aplikasi BPM - perkara yang sama?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Apl metronom BPM menggabungkan kawalan tempo dengan trek klik. Aplikasi ini merangkumi kedua-duanya - BPM tepat dengan metronom penuh untuk iPhone."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Adakah aplikasi metronom ini percuma?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Ya - muat turun percuma di App Store. Ciri premium ialah pembelian dalam apl pilihan.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Adakah ia mempunyai tempo ketuk?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">ya. Ketik bersama pada mana-mana irama dan apl menetapkan BPM serta-merta.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Apakah tandatangan masa yang disokong?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 dan 12/8 - ditambah dengan pecahan seperti nota suku, lapan, tiga kali ganda dan enam belas.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">Bolehkah saya menyimpan pratetap?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">ya. Simpan kombo BPM, tandatangan masa dan subbahagian untuk akses pantas semasa latihan.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Metronome vs aplikasi BPM - perkara yang sama?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Apl metronom BPM menggabungkan kawalan tempo dengan trek klik. Aplikasi ini merangkumi kedua-duanya - BPM tepat dengan metronom penuh untuk iPhone.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronom - Tempo muzik BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Bahasa</label>
                     <select id="lang-select" class="lang-select" aria-label="Bahasa">
                         <option value="/">EN</option>

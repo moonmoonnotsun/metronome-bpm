@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "क्या यह मेट्रोनोम ऐप मुफ़्त है?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "हाँ - ऐप स्टोर पर निःशुल्क डाउनलोड करें। प्रीमियम सुविधाएँ वैकल्पिक इन-ऐप खरीदारी हैं।"
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "क्या इसमें टैप टेम्पो है?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "हाँ। किसी भी लय पर टैप करें और ऐप तुरंत बीपीएम सेट कर देता है।"
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "किस समय के हस्ताक्षर समर्थित हैं?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8, और 12/8 - साथ ही चौथाई, आठवें, त्रिक और सोलहवें नोट जैसे उपविभाजन।"
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "क्या मैं प्रीसेट सहेज सकता हूँ?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "हाँ। अभ्यास के दौरान त्वरित पहुंच के लिए बीपीएम, समय हस्ताक्षर और उपखंड कॉम्बो सहेजें।"
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "मेट्रोनोम बनाम बीपीएम ऐप - एक ही बात?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "एक बीपीएम मेट्रोनोम ऐप एक क्लिक ट्रैक के साथ टेम्पो नियंत्रण को जोड़ता है। यह ऐप आईफोन के लिए पूर्ण मेट्रोनोम के साथ सटीक बीपीएम दोनों को कवर करता है।"
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">क्या यह मेट्रोनोम ऐप मुफ़्त है?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">हाँ - ऐप स्टोर पर निःशुल्क डाउनलोड करें। प्रीमियम सुविधाएँ वैकल्पिक इन-ऐप खरीदारी हैं।</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">क्या इसमें टैप टेम्पो है?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">हाँ। किसी भी लय पर टैप करें और ऐप तुरंत बीपीएम सेट कर देता है।</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">किस समय के हस्ताक्षर समर्थित हैं?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8, और 12/8 - साथ ही चौथाई, आठवें, त्रिक और सोलहवें नोट जैसे उपविभाजन।</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">क्या मैं प्रीसेट सहेज सकता हूँ?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">हाँ। अभ्यास के दौरान त्वरित पहुंच के लिए बीपीएम, समय हस्ताक्षर और उपखंड कॉम्बो सहेजें।</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">मेट्रोनोम बनाम बीपीएम ऐप - एक ही बात?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">एक बीपीएम मेट्रोनोम ऐप एक क्लिक ट्रैक के साथ टेम्पो नियंत्रण को जोड़ता है। यह ऐप आईफोन के लिए पूर्ण मेट्रोनोम के साथ सटीक बीपीएम दोनों को कवर करता है।</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">मेट्रोनोम - संगीत टेम्पो BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">भाषा</label>
                     <select id="lang-select" class="lang-select" aria-label="भाषा">
                         <option value="/">EN</option>

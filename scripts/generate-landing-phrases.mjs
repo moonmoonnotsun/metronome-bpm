@@ -96,10 +96,6 @@ const CURATED_OVERRIDES = {
     faqTitle: 'Метроном ',
     faqTitleAccent: 'FAQ',
     faqSubtitle: 'Ответы на частые вопросы о метрономе для iPhone',
-    faq3Q: 'Есть ли tap tempo?',
-    faq3A: 'Да. Отбивайте ритм - приложение сразу выставит BPM.',
-    faq6A:
-      'Метроном BPM совмещает настройку темпа и звуковой отсчёт. Это приложение делает и то, и другое.',
     feature2Title: 'Tap tempo',
     feature2Desc: 'Отбивайте ритм - приложение сразу выставит BPM. Просто и точно.',
     ctaDescriptionAfter:
@@ -117,7 +113,6 @@ const CURATED_OVERRIDES = {
     sectionScreenshotsTitle: 'Скріншоти',
     sectionScreenshotsSubtitle: 'Простий інтерфейс для музикантів',
     feature2Title: 'Tap tempo',
-    faq3Q: 'Чи є tap tempo?',
     ctaDescriptionAfter:
       ' на iPhone - метроном BPM для музикантів, яким потрібен точний темп під час репетицій і виступів.',
   },
@@ -144,8 +139,7 @@ const SOURCE_FIELDS = [
   'heroTagline', 'sectionFeaturesLine1', 'sectionFeaturesLine2', 'sectionFeaturesSubtitle',
   'sectionScreenshotsTitle', 'sectionScreenshotsSubtitle', 'sectionAboutTitle',
   'sectionAboutTitleAccent', 'sectionAboutCopy', 'sectionAboutCopyAfter', 'faqTitle',
-  'faqTitleAccent', 'faqSubtitle', 'faq1Q', 'faq1A', 'faq1AAfter', 'faq2Q', 'faq2A',
-  'faq3Q', 'faq3A', 'faq4Q', 'faq4A', 'faq5Q', 'faq5A', 'faq6Q', 'faq6A', 'ctaTitle',
+  'faqTitleAccent', 'faqSubtitle', 'faq1Q', 'faq1A', 'faq1AAfter', 'faq5Q', 'faq5A', 'ctaTitle',
   'ctaDescription', 'ctaDescriptionAfter', 'feature1Title', 'feature1Desc', 'feature2Title',
   'feature2Desc', 'feature3Title', 'feature3Desc', 'feature4Title', 'feature4Desc',
   'feature5Title', 'feature5Desc', 'feature6Title', 'feature6Desc',
@@ -184,18 +178,8 @@ function buildEnglishTemplates() {
     faq1A: 'A metronome app keeps steady tempo for practice and performance. ',
     faq1AAfter:
       ' gives you BPM control, tap tempo, time signatures, subdivisions, and presets on iPhone.',
-    faq2Q: 'Is this metronome app free?',
-    faq2A: 'Yes - free download on the App Store. Premium features are optional in-app purchases.',
-    faq3Q: 'Does it have tap tempo?',
-    faq3A: 'Yes. Tap along to any rhythm and the app sets the BPM instantly.',
-    faq4Q: 'What time signatures are supported?',
-    faq4A:
-      '2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8, and 12/8 - plus subdivisions like quarter, eighth, triplet, and sixteenth notes.',
     faq5Q: 'Can I save presets?',
     faq5A: 'Yes. Save BPM, time signature, and subdivision combos for quick access during practice.',
-    faq6Q: 'Metronome vs BPM app - same thing?',
-    faq6A:
-      'A BPM metronome app combines tempo control with a click track. This app covers both - precise BPM with a full metronome for iPhone.',
     ctaTitle: 'Download the metronome app',
     ctaDescription: 'Download ',
     ctaDescriptionAfter:

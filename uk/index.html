@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "Цей додаток метроном безкоштовний?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Так - безкоштовно завантажити в App Store. Преміум-функції - це додаткові покупки в програмі."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Чи є tap tempo?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "так Торкайтеся до будь-якого ритму, і програма миттєво встановить BPM."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Які підписи часу підтримуються?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 і 12/8 - плюс такі підрозділи, як чверть, восьма, триоль і шістнадцята нота."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "Чи можу я зберегти пресети?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "так Зберігайте BPM, тактовий розмір і комбінації підрозділів для швидкого доступу під час практики."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Додаток Metronome проти BPM - те саме?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Програма метронома BPM поєднує контроль темпу з доріжкою кліків. Ця програма охоплює обидва - точний BPM із повним метрономом для iPhone."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Цей додаток метроном безкоштовний?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Так - безкоштовно завантажити в App Store. Преміум-функції - це додаткові покупки в програмі.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Чи є tap tempo?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">так Торкайтеся до будь-якого ритму, і програма миттєво встановить BPM.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Які підписи часу підтримуються?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 і 12/8 - плюс такі підрозділи, як чверть, восьма, триоль і шістнадцята нота.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">Чи можу я зберегти пресети?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">так Зберігайте BPM, тактовий розмір і комбінації підрозділів для швидкого доступу під час практики.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Додаток Metronome проти BPM - те саме?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Програма метронома BPM поєднує контроль темпу з доріжкою кліків. Ця програма охоплює обидва - точний BPM із повним метрономом для iPhone.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Метроном - Темп музики BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Мова</label>
                     <select id="lang-select" class="lang-select" aria-label="Мова">
                         <option value="/">EN</option>

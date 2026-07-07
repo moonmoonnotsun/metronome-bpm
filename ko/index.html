@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "이 메트로놈 앱은 무료인가요?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "예 - App Store에서 무료로 다운로드할 수 있습니다. 프리미엄 기능은 선택적인 인앱 구매입니다."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "탭템포도 있나요?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "예. 리듬에 맞춰 탭하면 앱이 즉시 BPM을 설정합니다."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "어떤 박자표가 지원되나요?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8, 12/8 - 4분음표, 8분음표, 3분음표, 16분음표와 같은 구분도 있습니다."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "사전 설정을 저장할 수 있나요?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "예. 연습 중에 빠르게 액세스할 수 있도록 BPM, 박자표 및 분할 콤보를 저장하세요."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "메트로놈과 BPM 앱 - 같은가요?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "BPM 메트로놈 앱은 템포 제어와 클릭 트랙을 결합합니다. 이 앱은 iPhone용 완전한 메트로놈을 갖춘 정확한 BPM을 모두 다룹니다."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">이 메트로놈 앱은 무료인가요?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">예 - App Store에서 무료로 다운로드할 수 있습니다. 프리미엄 기능은 선택적인 인앱 구매입니다.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">탭템포도 있나요?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">예. 리듬에 맞춰 탭하면 앱이 즉시 BPM을 설정합니다.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">어떤 박자표가 지원되나요?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8, 12/8 - 4분음표, 8분음표, 3분음표, 16분음표와 같은 구분도 있습니다.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">사전 설정을 저장할 수 있나요?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">예. 연습 중에 빠르게 액세스할 수 있도록 BPM, 박자표 및 분할 콤보를 저장하세요.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">메트로놈과 BPM 앱 - 같은가요?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">BPM 메트로놈 앱은 템포 제어와 클릭 트랙을 결합합니다. 이 앱은 iPhone용 완전한 메트로놈을 갖춘 정확한 BPM을 모두 다룹니다.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">메트로놈 - 음악 템포 BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">언어</label>
                     <select id="lang-select" class="lang-select" aria-label="언어">
                         <option value="/">EN</option>

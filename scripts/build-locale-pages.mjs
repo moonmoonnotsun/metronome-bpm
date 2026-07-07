@@ -422,11 +422,7 @@ function buildLocalePage(code) {
 
   const faqPairs = [
     [o.faq1Q, linkedText(o.faq1A, appName, o.faq1AAfter, storeUrl)],
-    [o.faq2Q, o.faq2A],
-    [o.faq3Q, o.faq3A],
-    [o.faq4Q, o.faq4A],
     [o.faq5Q, o.faq5A],
-    [o.faq6Q, o.faq6A],
   ];
   const faqBlocks = [...html.matchAll(/<span class="faq-question-text">[^<]*<\/span>[\s\S]*?<p class="faq-answer">[\s\S]*?<\/p>/g)];
   faqBlocks.forEach((match, i) => {

@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "Är den här metronomappen gratis?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Ja - gratis nedladdning på App Store. Premiumfunktioner är valfria köp i appen."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Har den taptempo?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Ja. Peka med till valfri rytm och appen ställer in BPM direkt."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Vilka tidssignaturer stöds?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 och 12/8 - plus underavdelningar som kvarts-, åttondels-, triol- och sextondelsnoter."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "Kan jag spara förinställningar?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "Ja. Spara kombinationer av BPM, taktart och indelning för snabb åtkomst under träning."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Metronome vs BPM app - samma sak?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "En BPM-metronom-app kombinerar tempokontroll med ett klickspår. Denna app täcker båda - exakt BPM med en full metronom för iPhone."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Är den här metronomappen gratis?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Ja - gratis nedladdning på App Store. Premiumfunktioner är valfria köp i appen.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Har den taptempo?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Ja. Peka med till valfri rytm och appen ställer in BPM direkt.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Vilka tidssignaturer stöds?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 och 12/8 - plus underavdelningar som kvarts-, åttondels-, triol- och sextondelsnoter.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">Kan jag spara förinställningar?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">Ja. Spara kombinationer av BPM, taktart och indelning för snabb åtkomst under träning.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Metronome vs BPM app - samma sak?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">En BPM-metronom-app kombinerar tempokontroll med ett klickspår. Denna app täcker båda - exakt BPM med en full metronom för iPhone.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronom - Musik tempo BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Språk</label>
                     <select id="lang-select" class="lang-select" aria-label="Språk">
                         <option value="/">EN</option>

@@ -440,6 +440,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -523,42 +546,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "Bu metronom uygulaması ücretsiz mi?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Evet - App Store'dan ücretsiz indirin. Premium özellikler isteğe bağlı uygulama içi satın alımlardır."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Tap temposu var mı?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "Evet. Herhangi bir ritme dokunduğunuzda uygulama BPM'yi anında ayarlar."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Hangi zaman imzaları desteklenir?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 ve 12/8 - artı çeyrek, sekizlik, üçlü ve on altıncı notalar gibi alt bölümler."
-                            }
-                  },
-                  {
-                            "@type": "Question",
                             "name": "Ön ayarları kaydedebilir miyim?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
                                       "text": "Evet. Uygulama sırasında hızlı erişim için BPM'yi, zaman işaretini ve alt bölüm kombinasyonlarını kaydedin."
-                            }
-                  },
-                  {
-                            "@type": "Question",
-                            "name": "Metronom ve BPM uygulaması - aynı şey mi?",
-                            "acceptedAnswer": {
-                                      "@type": "Answer",
-                                      "text": "BPM metronom uygulaması tempo kontrolünü bir tıklama parçasıyla birleştirir. Bu uygulama iPhone için tam metronomlu hassas BPM'yi kapsar."
                             }
                   }
         ]
@@ -804,47 +795,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Bu metronom uygulaması ücretsiz mi?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Evet - App Store'dan ücretsiz indirin. Premium özellikler isteğe bağlı uygulama içi satın alımlardır.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Tap temposu var mı?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Evet. Herhangi bir ritme dokunduğunuzda uygulama BPM'yi anında ayarlar.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Hangi zaman imzaları desteklenir?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8 ve 12/8 - artı çeyrek, sekizlik, üçlü ve on altıncı notalar gibi alt bölümler.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">Ön ayarları kaydedebilir miyim?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">Evet. Uygulama sırasında hızlı erişim için BPM'yi, zaman işaretini ve alt bölüm kombinasyonlarını kaydedin.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Metronom ve BPM uygulaması - aynı şey mi?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">BPM metronom uygulaması tempo kontrolünü bir tıklama parçasıyla birleştirir. Bu uygulama iPhone için tam metronomlu hassas BPM'yi kapsar.</p>
                     </div>
                 </details>
             </div>
@@ -875,7 +830,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronom - Müzik temposu BPM</span>
                 </div>
-                                                                                                <div class="footer-lang">
+                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Dil</label>
                     <select id="lang-select" class="lang-select" aria-label="Dil">
                         <option value="/">EN</option>

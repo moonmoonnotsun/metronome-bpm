@@ -417,6 +417,52 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -500,42 +546,10 @@
             },
             {
                 "@type": "Question",
-                "name": "Is Metronome Pro - Tempo BPM free?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Metronome Pro - Tempo BPM is free to download on the App Store. Optional premium features are available as in-app purchases."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Does this metronome app have tap tempo?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Tap along to any rhythm and the app sets the BPM instantly."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What time signatures are supported?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "The app supports 2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8, and 12/8, plus subdivisions like quarter, eighth, triplet, and sixteenth notes."
-                }
-            },
-            {
-                "@type": "Question",
                 "name": "Can I save metronome presets?",
                 "acceptedAnswer": {
                     "@type": "Answer",
                     "text": "Yes. Save your favorite BPM, time signature, and subdivision combinations for quick access during practice."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Metronome vs BPM app - same thing?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A BPM metronome app combines tempo control with a click track. This app covers both - precise BPM with a full metronome for iPhone."
                 }
             }
         ]
@@ -797,47 +811,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Is this metronome app free?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Yes - free download on the App Store. Premium features are optional in-app purchases.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Does it have tap tempo?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">Yes. Tap along to any rhythm and the app sets the BPM instantly.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">What time signatures are supported?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">2/4, 3/4, 4/4, 5/4, 6/8, 7/8, 9/8, and 12/8 - plus subdivisions like quarter, eighth, triplet, and sixteenth notes.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
                         <span class="faq-question-text">Can I save presets?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
                         <p class="faq-answer">Yes. Save BPM, time signature, and subdivision combos for quick access during practice.</p>
-                    </div>
-                </details>
-                <details class="faq-item">
-                    <summary class="faq-question">
-                        <span class="faq-question-text">Metronome vs BPM app - same thing?</span>
-                        <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
-                    </summary>
-                    <div class="faq-answer-wrap">
-                        <p class="faq-answer">A BPM metronome app combines tempo control with a click track. This app covers both - precise BPM with a full metronome for iPhone.</p>
                     </div>
                 </details>
             </div>
@@ -868,7 +846,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronome Pro - Tempo BPM</span>
                 </div>
-                                                                <div class="footer-lang">
+                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Language</label>
                     <select id="lang-select" class="lang-select" aria-label="Language">
                         <option value="/" selected>EN</option>
