@@ -417,6 +417,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -757,7 +780,7 @@
     <section class="app-section" id="about-metronome">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">một là gì<span class="title-accent">Ứng dụng máy đếm nhịp</span>?</h2>
+                <h2 class="section-title">một là gì <span class="title-accent">Ứng dụng máy đếm nhịp</span>?</h2>
                 <p class="section-subtitle about-copy">Ứng dụng máy đếm nhịp giữ nhịp độ ổn định trong khi bạn luyện thang âm, bài hát hoặc bài tập. <a href="https://apps.apple.com/vn/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Máy nhịp - Tempo âm nhạc BPM</a> là máy đếm nhịp BPM dành cho iPhone - nhịp độ nhấn, ký hiệu thời gian, phân khu, cài đặt trước và giao diện rõ ràng.</p>
             </div>
         </div>
@@ -766,7 +789,7 @@
     <section class="app-section app-section-alt" id="faq">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Ứng dụng máy đếm nhịp<span class="title-accent">Câu hỏi thường gặp</span></h2>
+                <h2 class="section-title">Ứng dụng máy đếm nhịp <span class="title-accent">Câu hỏi thường gặp</span></h2>
                 <p class="section-subtitle">Các câu hỏi thường gặp về ứng dụng máy đếm nhịp dành cho iPhone của chúng tôi</p>
             </div>
             <div class="faq-list">
@@ -852,7 +875,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Máy nhịp - Tempo âm nhạc BPM</span>
                 </div>
-                                                                                <div class="footer-lang">
+                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Ngôn ngữ</label>
                     <select id="lang-select" class="lang-select" aria-label="Ngôn ngữ">
                         <option value="/">EN</option>

@@ -417,6 +417,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -757,7 +780,7 @@
     <section class="app-section" id="about-metronome">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Apa Itu a<span class="title-accent">Apl Metronom</span>?</h2>
+                <h2 class="section-title">Apa Itu a <span class="title-accent">Apl Metronom</span>?</h2>
                 <p class="section-subtitle about-copy">Apl metronom mengekalkan tempo yang stabil semasa anda berlatih skala, lagu atau latih tubi. <a href="https://apps.apple.com/my/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Metronom - Tempo muzik BPM</a> ialah metronom BPM untuk iPhone - tempo ketik, tandatangan masa, subbahagian, pratetap dan antara muka yang bersih.</p>
             </div>
         </div>
@@ -766,7 +789,7 @@
     <section class="app-section app-section-alt" id="faq">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Apl Metronom<span class="title-accent">Soalan Lazim</span></h2>
+                <h2 class="section-title">Apl Metronom <span class="title-accent">Soalan Lazim</span></h2>
                 <p class="section-subtitle">Soalan lazim tentang apl metronom kami untuk iPhone</p>
             </div>
             <div class="faq-list">
@@ -852,7 +875,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronom - Tempo muzik BPM</span>
                 </div>
-                                                                                <div class="footer-lang">
+                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Bahasa</label>
                     <select id="lang-select" class="lang-select" aria-label="Bahasa">
                         <option value="/">EN</option>

@@ -417,6 +417,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -757,7 +780,7 @@
     <section class="app-section" id="about-metronome">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Що таке a<span class="title-accent">Додаток метроном</span>?</h2>
+                <h2 class="section-title">Що таке a <span class="title-accent">Додаток метроном</span>?</h2>
                 <p class="section-subtitle about-copy">Додаток для метронома підтримує постійний темп, поки ви відпрацьовуєте гами, пісні чи вправи. <a href="https://apps.apple.com/ua/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Метроном - Темп музики BPM</a> це BPM метроном для iPhone - темп натискання, розміри, підрозділи, пресети та чистий інтерфейс.</p>
             </div>
         </div>
@@ -766,7 +789,7 @@
     <section class="app-section app-section-alt" id="faq">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Додаток метроном<span class="title-accent">FAQ</span></h2>
+                <h2 class="section-title">Додаток метроном <span class="title-accent">FAQ</span></h2>
                 <p class="section-subtitle">Поширені запитання про нашу програму метроном для iPhone</p>
             </div>
             <div class="faq-list">
@@ -852,7 +875,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Метроном - Темп музики BPM</span>
                 </div>
-                                                                                <div class="footer-lang">
+                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Мова</label>
                     <select id="lang-select" class="lang-select" aria-label="Мова">
                         <option value="/">EN</option>

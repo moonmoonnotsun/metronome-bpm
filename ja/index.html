@@ -417,6 +417,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -757,7 +780,7 @@
     <section class="app-section" id="about-metronome">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">とは何ですか<span class="title-accent">メトロノームアプリ</span>?</h2>
+                <h2 class="section-title">とは何ですか <span class="title-accent">メトロノームアプリ</span>?</h2>
                 <p class="section-subtitle about-copy">メトロノーム アプリは、スケール、歌、ドリルの練習中に一定のテンポを保ちます。 <a href="https://apps.apple.com/jp/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">メトロノーム - 音楽のテンポ BPM</a> は iPhone 用の BPM メトロノームです - タップテンポ、拍子記号、サブディビジョン、プリセット、クリーンなインターフェースを備えています。</p>
             </div>
         </div>
@@ -766,7 +789,7 @@
     <section class="app-section app-section-alt" id="faq">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">メトロノームアプリ<span class="title-accent">よくある質問</span></h2>
+                <h2 class="section-title">メトロノームアプリ <span class="title-accent">よくある質問</span></h2>
                 <p class="section-subtitle">iPhone 用メトロノーム アプリに関するよくある質問</p>
             </div>
             <div class="faq-list">
@@ -852,7 +875,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">メトロノーム - 音楽のテンポ BPM</span>
                 </div>
-                                                                                <div class="footer-lang">
+                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">言語</label>
                     <select id="lang-select" class="lang-select" aria-label="言語">
                         <option value="/">EN</option>

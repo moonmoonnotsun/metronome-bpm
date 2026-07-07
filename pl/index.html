@@ -417,6 +417,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -757,7 +780,7 @@
     <section class="app-section" id="about-metronome">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Co to jest<span class="title-accent">Aplikacja Metronom</span>?</h2>
+                <h2 class="section-title">Co to jest <span class="title-accent">Aplikacja Metronom</span>?</h2>
                 <p class="section-subtitle about-copy">Aplikacja metronom utrzymuje stałe tempo podczas ćwiczeń gam, piosenek lub ćwiczeń. <a href="https://apps.apple.com/pl/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Metronom - Tempo muzyki BPM</a> to metronom BPM dla iPhone'a - wybierz tempo, metrum, podziały, ustawienia wstępne i przejrzysty interfejs.</p>
             </div>
         </div>
@@ -766,7 +789,7 @@
     <section class="app-section app-section-alt" id="faq">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Aplikacja Metronom<span class="title-accent">Często zadawane pytania</span></h2>
+                <h2 class="section-title">Aplikacja Metronom <span class="title-accent">Często zadawane pytania</span></h2>
                 <p class="section-subtitle">Często zadawane pytania dotyczące naszej aplikacji metronomu na iPhone'a</p>
             </div>
             <div class="faq-list">
@@ -852,7 +875,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronom - Tempo muzyki BPM</span>
                 </div>
-                                                                                <div class="footer-lang">
+                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Język</label>
                     <select id="lang-select" class="lang-select" aria-label="Język">
                         <option value="/">EN</option>

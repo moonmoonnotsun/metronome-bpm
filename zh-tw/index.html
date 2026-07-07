@@ -417,6 +417,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -757,7 +780,7 @@
     <section class="app-section" id="about-metronome">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">什麼是<span class="title-accent">節拍器應用程式</span>?</h2>
+                <h2 class="section-title">什麼是 <span class="title-accent">節拍器應用程式</span>?</h2>
                 <p class="section-subtitle about-copy">當您練習音階、歌曲或練習時，節拍器應用程式可以保持穩定的節奏。 <a href="https://apps.apple.com/tw/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">節拍器 - 音樂速度 BPM</a> 是一款適用於 iPhone 的 BPM 節拍器 - 節拍、拍號、細分、預設和簡潔的介面。</p>
             </div>
         </div>
@@ -766,7 +789,7 @@
     <section class="app-section app-section-alt" id="faq">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">節拍器應用程式<span class="title-accent">常問問題</span></h2>
+                <h2 class="section-title">節拍器應用程式 <span class="title-accent">常問問題</span></h2>
                 <p class="section-subtitle">有關 iPhone 版節拍器應用程式的常見問題</p>
             </div>
             <div class="faq-list">
@@ -852,7 +875,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">節拍器 - 音樂速度 BPM</span>
                 </div>
-                                                                                <div class="footer-lang">
+                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">語言</label>
                     <select id="lang-select" class="lang-select" aria-label="語言">
                         <option value="/">EN</option>

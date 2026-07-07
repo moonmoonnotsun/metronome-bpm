@@ -417,6 +417,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -757,7 +780,7 @@
     <section class="app-section" id="about-metronome">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Hva er en<span class="title-accent">Metronom-appen</span>?</h2>
+                <h2 class="section-title">Hva er en <span class="title-accent">Metronom-appen</span>?</h2>
                 <p class="section-subtitle about-copy">En metronom-app holder jevnt tempo mens du øver på skalaer, sanger eller øvelser. <a href="https://apps.apple.com/no/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Metronom - Musikk tempo BPM</a> er en BPM-metronom for iPhone - trykktempo, taktarter, underavdelinger, forhåndsinnstillinger og et rent grensesnitt.</p>
             </div>
         </div>
@@ -766,7 +789,7 @@
     <section class="app-section app-section-alt" id="faq">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Metronom-appen<span class="title-accent">FAQ</span></h2>
+                <h2 class="section-title">Metronom-appen <span class="title-accent">FAQ</span></h2>
                 <p class="section-subtitle">Vanlige spørsmål om vår metronom-app for iPhone</p>
             </div>
             <div class="faq-list">
@@ -852,7 +875,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronom - Musikk tempo BPM</span>
                 </div>
-                                                                                <div class="footer-lang">
+                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Språk</label>
                     <select id="lang-select" class="lang-select" aria-label="Språk">
                         <option value="/">EN</option>

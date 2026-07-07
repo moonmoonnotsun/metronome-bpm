@@ -417,6 +417,29 @@
                 justify-self: center;
             }
         }
+.footer-content {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+            gap: 16px;
+        }
+        .footer-logo {
+            justify-self: start;
+        }
+        .footer-links {
+            justify-self: end;
+        }
+        @media (max-width: 768px) {
+            .footer-content {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+            }
+            .footer-logo,
+            .footer-links {
+                justify-self: center;
+            }
+        }
     </style>
     
     <!-- Structured Data (JSON-LD) -->
@@ -757,7 +780,7 @@
     <section class="app-section" id="about-metronome">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Mikä on a<span class="title-accent">Metronomi-sovellus</span>?</h2>
+                <h2 class="section-title">Mikä on a <span class="title-accent">Metronomi-sovellus</span>?</h2>
                 <p class="section-subtitle about-copy">Metronomisovellus pitää tasaisen tempon, kun harjoittelet asteikkoja, lauluja tai harjoituksia. <a href="https://apps.apple.com/fi/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Metronomi - Musiikki tempo BPM</a> on BPM-metronomi iPhonelle - napautustempo, aika-allekirjoitukset, alajaot, esiasetukset ja puhdas käyttöliittymä.</p>
             </div>
         </div>
@@ -766,7 +789,7 @@
     <section class="app-section app-section-alt" id="faq">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Metronomi-sovellus<span class="title-accent">FAQ</span></h2>
+                <h2 class="section-title">Metronomi-sovellus <span class="title-accent">FAQ</span></h2>
                 <p class="section-subtitle">Yleisiä kysymyksiä iPhonen metronomisovelluksestamme</p>
             </div>
             <div class="faq-list">
@@ -852,7 +875,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronomi - Musiikki tempo BPM</span>
                 </div>
-                                                                                <div class="footer-lang">
+                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Kieli</label>
                     <select id="lang-select" class="lang-select" aria-label="Kieli">
                         <option value="/">EN</option>

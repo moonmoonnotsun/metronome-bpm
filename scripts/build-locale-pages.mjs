@@ -404,7 +404,7 @@ function buildLocalePage(code) {
 
   html = html.replace(
     /<h2 class="section-title">What Is a <span class="title-accent">Metronome App<\/span>\?<\/h2>/,
-    `<h2 class="section-title">${o.sectionAboutTitle}<span class="title-accent">${o.sectionAboutTitleAccent}</span>${o.sectionAboutTitleEnd}</h2>`,
+    `<h2 class="section-title">${spaceAfter(o.sectionAboutTitle)}<span class="title-accent">${o.sectionAboutTitleAccent}</span>${o.sectionAboutTitleEnd}</h2>`,
   );
   html = html.replace(
     /<p class="section-subtitle about-copy">[\s\S]*?<\/p>/,
@@ -413,7 +413,7 @@ function buildLocalePage(code) {
 
   html = html.replace(
     /<h2 class="section-title">Metronome App <span class="title-accent">FAQ<\/span><\/h2>/,
-    `<h2 class="section-title">${o.faqTitle}<span class="title-accent">${o.faqTitleAccent}</span></h2>`,
+    `<h2 class="section-title">${spaceAfter(o.faqTitle)}<span class="title-accent">${o.faqTitleAccent}</span></h2>`,
   );
   html = html.replace(
     /<p class="section-subtitle">Common questions about our metronome app for iPhone<\/p>/,
