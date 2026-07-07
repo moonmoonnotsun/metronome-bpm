@@ -1,9 +1,1552 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://metronome-bpm.app/</loc>
-        <lastmod>2026-07-06</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/de/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/fr/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/es/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/ru/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/pl/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/ja/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/pt/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/zh/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/ko/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/it/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/nl/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/tr/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/uk/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/ar/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/sv/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/zh-tw/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/pt-pt/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/vi/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/id/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/th/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/cs/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/da/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/nb/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/fi/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/he/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/ca/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/hr/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/el/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/hi/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/hu/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/ms/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/es-mx/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/ro/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/sk/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+    <url>
+        <loc>https://metronome-bpm.app/fr-ca/</loc>
+        <xhtml:link rel="alternate" hreflang="en" href="https://metronome-bpm.app/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/"/>
+        <xhtml:link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/"/>
+        <xhtml:link rel="alternate" hreflang="ru" href="https://metronome-bpm.app/ru/"/>
+        <xhtml:link rel="alternate" hreflang="pl" href="https://metronome-bpm.app/pl/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://metronome-bpm.app/ja/"/>
+        <xhtml:link rel="alternate" hreflang="pt-BR" href="https://metronome-bpm.app/pt/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://metronome-bpm.app/zh/"/>
+        <xhtml:link rel="alternate" hreflang="ko" href="https://metronome-bpm.app/ko/"/>
+        <xhtml:link rel="alternate" hreflang="it" href="https://metronome-bpm.app/it/"/>
+        <xhtml:link rel="alternate" hreflang="nl" href="https://metronome-bpm.app/nl/"/>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://metronome-bpm.app/tr/"/>
+        <xhtml:link rel="alternate" hreflang="uk" href="https://metronome-bpm.app/uk/"/>
+        <xhtml:link rel="alternate" hreflang="ar" href="https://metronome-bpm.app/ar/"/>
+        <xhtml:link rel="alternate" hreflang="sv" href="https://metronome-bpm.app/sv/"/>
+        <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://metronome-bpm.app/zh-tw/"/>
+        <xhtml:link rel="alternate" hreflang="pt-PT" href="https://metronome-bpm.app/pt-pt/"/>
+        <xhtml:link rel="alternate" hreflang="vi" href="https://metronome-bpm.app/vi/"/>
+        <xhtml:link rel="alternate" hreflang="id" href="https://metronome-bpm.app/id/"/>
+        <xhtml:link rel="alternate" hreflang="th" href="https://metronome-bpm.app/th/"/>
+        <xhtml:link rel="alternate" hreflang="cs" href="https://metronome-bpm.app/cs/"/>
+        <xhtml:link rel="alternate" hreflang="da" href="https://metronome-bpm.app/da/"/>
+        <xhtml:link rel="alternate" hreflang="nb" href="https://metronome-bpm.app/nb/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://metronome-bpm.app/fi/"/>
+        <xhtml:link rel="alternate" hreflang="he" href="https://metronome-bpm.app/he/"/>
+        <xhtml:link rel="alternate" hreflang="ca" href="https://metronome-bpm.app/ca/"/>
+        <xhtml:link rel="alternate" hreflang="hr" href="https://metronome-bpm.app/hr/"/>
+        <xhtml:link rel="alternate" hreflang="el" href="https://metronome-bpm.app/el/"/>
+        <xhtml:link rel="alternate" hreflang="hi" href="https://metronome-bpm.app/hi/"/>
+        <xhtml:link rel="alternate" hreflang="hu" href="https://metronome-bpm.app/hu/"/>
+        <xhtml:link rel="alternate" hreflang="ms" href="https://metronome-bpm.app/ms/"/>
+        <xhtml:link rel="alternate" hreflang="es-MX" href="https://metronome-bpm.app/es-mx/"/>
+        <xhtml:link rel="alternate" hreflang="ro" href="https://metronome-bpm.app/ro/"/>
+        <xhtml:link rel="alternate" hreflang="sk" href="https://metronome-bpm.app/sk/"/>
+        <xhtml:link rel="alternate" hreflang="fr-CA" href="https://metronome-bpm.app/fr-ca/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://metronome-bpm.app/"/>
+        <lastmod>2026-07-07</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
     </url>
 </urlset>
