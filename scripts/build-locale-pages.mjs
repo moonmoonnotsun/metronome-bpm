@@ -287,7 +287,8 @@ function buildLocalePage(code) {
   const storeUrl = appStoreUrl(o.appStoreCountry);
   const dir = localeDir(code);
   const pageUrl = `${BASE_URL}/${dir}/`;
-  const keywords = m.keywords.replace(/,/g, ', ');
+  const keywordSource = o.seoKeywords || m.keywords;
+  const keywords = keywordSource.includes(', ') ? keywordSource : keywordSource.replace(/,/g, ', ');
 
   let html = template;
 
@@ -372,9 +373,33 @@ function buildLocalePage(code) {
     `"name": "${escapeJson(appName)}"`,
   );
   html = html.replace(
-    /"description": "Metronome app for iPhone with precise BPM control, tap tempo, time signatures, subdivisions, and preset saving\. Built for musicians who want speed, accuracy, and zero distractions\."/,
+    /"description": "Free metronome app for iPhone, iOS, and Android\. Set tempo in BPM, beats per minute, tap the beat, and practice in time\."/,
     `"description": "${escapeJson(o.metaDescription)}"`,
   );
+  if (Array.isArray(o.seoAlt)) {
+    html = html.replace(
+      '"alternateName": ["Metronome", "Metronome App", "BPM App"]',
+      `"alternateName": ${JSON.stringify(o.seoAlt)}`,
+    );
+  }
+  if (o.seoSiteName) {
+    html = html.replace(
+      '"name": "Metronome"',
+      `"name": ${JSON.stringify(o.seoSiteName)}`,
+    );
+    html = html.replace(
+      '"alternateName": "BPM Metronome"',
+      `"alternateName": ${JSON.stringify(o.seoAlt?.[1] || o.seoSiteName)}`,
+    );
+    html = html.replace(
+      '"description": "Free metronome app for iPhone, iOS, and Android. Set tempo in BPM, beats per minute, tap the beat, and practice in time."',
+      `"description": ${JSON.stringify(o.metaDescription)}`,
+    );
+    html = html.replace(
+      '"name": "Metronome App"',
+      `"name": ${JSON.stringify(o.seoSiteName)}`,
+    );
+  }
 
   const featureListJson = features.map((f) => `"${escapeJson(f.title)}"`).join(',\n            ');
   html = html.replace(
@@ -434,13 +459,14 @@ function buildLocalePage(code) {
     `<h2 class="section-title">${o.faqTitle}${titleSep(code, o.faqTitle, o.faqTitleAccent)}<span class="title-accent">${o.faqTitleAccent}</span></h2>`,
   );
   html = html.replace(
-    /<p class="section-subtitle">Common questions about our metronome app for iPhone<\/p>/,
+    /<p class="section-subtitle">Common questions about our metronome app for iPhone and Android<\/p>/,
     `<p class="section-subtitle">${o.faqSubtitle}</p>`,
   );
 
   const faqPairs = [
     [o.faq1Q, linkedText(o.faq1A, appName, o.faq1AAfter, storeUrl)],
     [o.faq5Q, o.faq5A],
+    [o.faq6Q, o.faq6A],
   ];
   const faqBlocks = [...html.matchAll(/<span class="faq-question-text">[^<]*<\/span>[\s\S]*?<p class="faq-answer">[\s\S]*?<\/p>/g)];
   faqBlocks.forEach((match, i) => {
@@ -463,8 +489,9 @@ function buildLocalePage(code) {
     `<p class="cta-description">${linkedText(o.ctaDescription, appName, o.ctaDescriptionAfter, storeUrl)}</p>`,
   );
 
-  html = html.replace(/<span>Download on the App Store<\/span>/g, `<span>${o.downloadAppStore}</span>`);
-  html = html.replace(/<span class="btn-free">Free<\/span>/g, `<span class="btn-free">${o.free}</span>`);
+  html = html.replace(/<span class="store-soft">Download on the<\/span>/g, `<span class="store-soft">${o.storeSoft}</span>`);
+  html = html.replace(/<span class="free">Free<\/span>/g, `<span class="free">${o.free}</span>`);
+  html = html.replace(/aria-label="Download on Google Play"/g, `aria-label="${o.storeSoft} Google Play"`);
   html = html.replace(/aria-label="Download on the App Store"/g, `aria-label="${o.downloadAppStore}"`);
   html = html.replace(/aria-label="Download Metronome Pro - Tempo BPM on the App Store"/g, `aria-label="${o.downloadAppStore}"`);
 
