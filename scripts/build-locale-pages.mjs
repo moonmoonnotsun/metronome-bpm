@@ -131,34 +131,12 @@ function hreflangBlock() {
 }
 
 function localeRedirectScript() {
-  const routeEntries = ALL_LOCALES.filter(({ path: p }) => p !== '/').flatMap(({ path: p }) => {
-    const dir = p.replace(/\//g, '');
-    const entries = [[dir, p]];
-    if (dir === 'pt') entries.push(['pt-br', p]);
-    if (dir === 'zh') entries.push(['zh-cn', p], ['zh-hans', p]);
-    if (dir === 'zh-tw') entries.push(['zh-hant', p], ['zh-hk', p], ['zh-tw', p]);
-    if (dir === 'pt-pt') entries.push(['pt-pt', p]);
-    if (dir === 'uk') entries.push(['ua', p]);
-    if (dir === 'nb') entries.push(['no', p], ['nn', p]);
-    if (dir === 'es-mx') entries.push(['es-mx', p]);
-    if (dir === 'fr-ca') entries.push(['fr-ca', p]);
-    return entries;
-  });
-  const routesJson = JSON.stringify(Object.fromEntries(routeEntries));
   return `    <script>
         (function () {
-            var routes = ${routesJson};
             var path = window.location.pathname;
-            if (path !== '/' && path !== '/index.html') return;
-
-            var langs = navigator.languages || [navigator.language || 'en'];
-            var primary = (langs[0] || 'en').toLowerCase();
-            if (primary === 'en' || primary.indexOf('en-') === 0) return;
-
-            var tag = primary;
-            var base = primary.split('-')[0];
-            if (routes[tag]) { window.location.replace(routes[tag]); return; }
-            if (routes[base]) { window.location.replace(routes[base]); return; }
+            if (!/\\/index\\.html$/.test(path)) return;
+            var next = path.replace(/index\\.html$/, '');
+            window.location.replace(next + window.location.search + window.location.hash);
         })();
     </script>`;
 }
@@ -373,7 +351,7 @@ function buildLocalePage(code) {
     `"name": "${escapeJson(appName)}"`,
   );
   html = html.replace(
-    /"description": "Free metronome app for iPhone, iOS, and Android\. Set tempo in BPM, beats per minute, tap the beat, and practice in time\."/,
+    /"description": "Free metronome for iPhone and Android\. Set the tempo in beats per minute, tap the beat, and keep time while you practice\."/,
     `"description": "${escapeJson(o.metaDescription)}"`,
   );
   if (Array.isArray(o.seoAlt)) {
@@ -392,7 +370,7 @@ function buildLocalePage(code) {
       `"alternateName": ${JSON.stringify(o.seoAlt?.[1] || o.seoSiteName)}`,
     );
     html = html.replace(
-      '"description": "Free metronome app for iPhone, iOS, and Android. Set tempo in BPM, beats per minute, tap the beat, and practice in time."',
+      '"description": "Free metronome for iPhone and Android. Set the tempo in beats per minute, tap the beat, and keep time while you practice."',
       `"description": ${JSON.stringify(o.metaDescription)}`,
     );
     html = html.replace(
@@ -517,6 +495,7 @@ function updateEnglishIndex() {
   let html = fs.readFileSync(TEMPLATE_PATH, 'utf8');
   html = html.replace(/<link rel="alternate" hreflang="[^"]*" href="[^"]*">\n?/g, '');
   html = html.replace(/\s*<script>\s*\(function \(\) \{\s*var (supported|routes)[\s\S]*?<\/script>\s*/g, '\n');
+  html = html.replace(/\s*<script>\s*\(function \(\) \{\s*var path = window\.location\.pathname;[\s\S]*?<\/script>\s*/g, '\n');
   html = html.replace('</head>', `${hreflangBlock()}\n${localeRedirectScript()}\n</head>`);
   html = html.replace(/<div class="footer-lang"[^>]*>[\s\S]*?<\/div>\s*/g, '');
   html = html.replace(

@@ -18,7 +18,7 @@
     <!-- Primary Meta Tags -->
     <title>Metronomi - BPM-sovellus | Ilmainen iPhonelle ja Androidille</title>
     <meta name="title" content="Metronomi - BPM-sovellus | Ilmainen iPhonelle ja Androidille">
-    <meta name="description" content="Ilmainen metronomi iPhonelle, iOS:lle ja Androidille. Aseta tempo BPM:nä, iskua minuutissa, ja napauta tahtia.">
+    <meta name="description" content="Ilmainen metronomi iPhonelle ja Androidille. Aseta tempo iskuina minuutissa ja napauta tahtia.">
     <meta name="keywords" content="metronomi, metronomi sovellus, bpm app, tempo, bpm, iskua minuutissa, metronomi ios, metronomi android, metronomi iphone, bpm android, bpm ios">
     <meta name="author" content="omoot apps">
     <meta name="robots" content="index, follow">
@@ -33,7 +33,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://metronome-bpm.app/fi/">
     <meta property="og:title" content="Metronomi - BPM-sovellus | Ilmainen iPhonelle ja Androidille">
-    <meta property="og:description" content="Ilmainen metronomi iPhonelle, iOS:lle ja Androidille. Aseta tempo BPM:nä, iskua minuutissa, ja napauta tahtia.">
+    <meta property="og:description" content="Ilmainen metronomi iPhonelle ja Androidille. Aseta tempo iskuina minuutissa ja napauta tahtia.">
     <meta property="og:image" content="https://metronome-bpm.app/assets/images/metronome/optimized/Frame%203063.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -47,7 +47,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://metronome-bpm.app/fi/">
     <meta name="twitter:title" content="Metronomi - BPM-sovellus | Ilmainen iPhonelle ja Androidille">
-    <meta name="twitter:description" content="Ilmainen metronomi iPhonelle, iOS:lle ja Androidille. Aseta tempo BPM:nä, iskua minuutissa, ja napauta tahtia.">
+    <meta name="twitter:description" content="Ilmainen metronomi iPhonelle ja Androidille. Aseta tempo iskuina minuutissa ja napauta tahtia.">
     <meta name="twitter:image" content="https://metronome-bpm.app/assets/images/metronome/optimized/Frame%203063.png">
     <meta name="twitter:image:alt" content="Metronome app for iPhone and Android - Metronome Pro Tempo BPM interface">
     
@@ -465,6 +465,10 @@
         
         
         
+        
+        
+        
+        
         .footer-lang {
             display: flex;
             align-items: center;
@@ -549,7 +553,7 @@
             "price": "0",
             "priceCurrency": "USD"
         },
-        "description": "Ilmainen metronomi iPhonelle, iOS:lle ja Androidille. Aseta tempo BPM:nä, iskua minuutissa, ja napauta tahtia.",
+        "description": "Ilmainen metronomi iPhonelle ja Androidille. Aseta tempo iskuina minuutissa ja napauta tahtia.",
         "screenshot": "https://metronome-bpm.app/assets/images/metronome/optimized/Frame%203063.png",
         "featureList": [
             "Tarkka BPM-ohjaus",
@@ -573,7 +577,7 @@
         "name": "Metronomi",
         "alternateName": "Metronomi-sovellus",
         "url": "https://metronome-bpm.app/fi/",
-        "description": "Ilmainen metronomi iPhonelle, iOS:lle ja Androidille. Aseta tempo BPM:nä, iskua minuutissa, ja napauta tahtia.",
+        "description": "Ilmainen metronomi iPhonelle ja Androidille. Aseta tempo iskuina minuutissa ja napauta tahtia.",
         "publisher": {
             "@type": "Organization",
             "name": "omoot apps",
@@ -599,10 +603,10 @@
         "mainEntity": [
                   {
                             "@type": "Question",
-                            "name": "Mikä on metronomisovellus?",
+                            "name": "Mikä metronomisovellus on?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "Metronomisovellus pitää tasaisen tempon harjoittelua ja suorituskykyä varten. Metronomi - Musiikki tempo BPM antaa sinulle BPM-hallinnan, napautustempon, aika-allekirjoitukset, alajaot ja esiasetukset iPhone & Androidssa."
+                                      "text": "Se pitää tempon tasaisena treeneissä ja keikalla. Metronomi - Musiikki tempo BPM asettaa tempon iskuina minuutissa ja toimii iPhonella sekä Androidilla."
                             }
                   },
                   {
@@ -615,10 +619,10 @@
                   },
                   {
                             "@type": "Question",
-                            "name": "Metronomi vai BPM-sovellus - sama asia?",
+                            "name": "Metronomi vai BPM-sovellus, sama asia?",
                             "acceptedAnswer": {
                                       "@type": "Answer",
-                                      "text": "BPM-metronomisovellus yhdistää tempon ohjauksen napsautusrataan. Tämä sovellus kattaa molemmat - tarkan BPM:n täydellisellä metronomilla iPhone & Androidlle."
+                                      "text": "BPM-sovellus asettaa tempon ja soittaa klikin. Tämä metronomi tekee molemmat, iPhonella ja Androidilla."
                             }
                   }
         ]
@@ -640,7 +644,15 @@
         ]
     }
     </script>
-<link rel="alternate" hreflang="en" href="https://metronome-bpm.app/">
+                                                                                                                                                        <script>
+        (function () {
+            var path = window.location.pathname;
+            if (!/\/index\.html$/.test(path)) return;
+            var next = path.replace(/index\.html$/, '');
+            window.location.replace(next + window.location.search + window.location.hash);
+        })();
+    </script>
+    <link rel="alternate" hreflang="en" href="https://metronome-bpm.app/">
     <link rel="alternate" hreflang="de" href="https://metronome-bpm.app/de/">
     <link rel="alternate" hreflang="fr" href="https://metronome-bpm.app/fr/">
     <link rel="alternate" hreflang="es" href="https://metronome-bpm.app/es/">
@@ -694,8 +706,8 @@
                     </a>
                 </div>
                 <p class="app-slogan">Metronomi iPhonelle ja Androidille</p>
-                <h1 class="app-title">Metronomi <span class="highlight-tempo">Muusikot</span></h1>
-                <p class="app-tagline">Ilmainen metronomi iPhonelle, iOS:lle ja Androidille. Tempo BPM:nä, iskua minuutissa, ja napauta tahtia.</p>
+                <h1 class="app-title">Metronomi <span class="highlight-tempo">muusikoille</span></h1>
+                <p class="app-tagline">Ilmainen metronomi iPhonelle ja Androidille. Aseta tempo iskuina minuutissa ja napauta tahtia.</p>
                 <div class="app-badges">
                     <a href="https://apps.apple.com/fi/app/metronome-pro-tempo-bpm/id6755417459" target="_blank" rel="noopener noreferrer" class="store store-lg store-ios" aria-label="Lataa App Storesta">
                         <svg class="apple" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"></path></svg>
@@ -851,7 +863,7 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Mikä on <span class="title-accent">Metronomi</span>?</h2>
-                <p class="section-subtitle about-copy">Metronomisovellus pitää tasaisen tempon, kun harjoittelet asteikkoja, lauluja tai harjoituksia. <a href="https://apps.apple.com/fi/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Metronomi - Musiikki tempo BPM</a> on BPM-metronomi iPhone & Androidlle - napautustempo, aika-allekirjoitukset, alajaot, esiasetukset ja puhdas käyttöliittymä.</p>
+                <p class="section-subtitle about-copy">Metronomi pitää tempon tasaisena, kun harjoittelet asteikkoja, kappaleita tai etydejä. <a href="https://apps.apple.com/fi/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Metronomi - Musiikki tempo BPM</a> on metronomi iPhonelle ja Androidille. Napauta tempo, valitse tahtilaji ja tallenna asetus.</p>
             </div>
         </div>
     </section>
@@ -860,16 +872,16 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Metronomi-sovellus <span class="title-accent">FAQ</span></h2>
-                <p class="section-subtitle">Yleisiä kysymyksiä iPhone & Androidn metronomisovelluksestamme</p>
+                <p class="section-subtitle">Yleisiä kysymyksiä iPhone & Androidin metronomisovelluksestamme</p>
             </div>
             <div class="faq-list">
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Mikä on metronomisovellus?</span>
+                        <span class="faq-question-text">Mikä metronomisovellus on?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
-                        <p class="faq-answer">Metronomisovellus pitää tasaisen tempon harjoittelua ja suorituskykyä varten. <a href="https://apps.apple.com/fi/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Metronomi - Musiikki tempo BPM</a> antaa sinulle BPM-hallinnan, napautustempon, aika-allekirjoitukset, alajaot ja esiasetukset iPhone & Androidssa.</p>
+                        <p class="faq-answer">Se pitää tempon tasaisena treeneissä ja keikalla. <a href="https://apps.apple.com/fi/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Metronomi - Musiikki tempo BPM</a> asettaa tempon iskuina minuutissa ja toimii iPhonella sekä Androidilla.</p>
                     </div>
                 </details>
                 <details class="faq-item">
@@ -883,11 +895,11 @@
                 </details>
                 <details class="faq-item">
                     <summary class="faq-question">
-                        <span class="faq-question-text">Metronomi vai BPM-sovellus - sama asia?</span>
+                        <span class="faq-question-text">Metronomi vai BPM-sovellus, sama asia?</span>
                         <svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
                     </summary>
                     <div class="faq-answer-wrap">
-                        <p class="faq-answer">BPM-metronomisovellus yhdistää tempon ohjauksen napsautusrataan. Tämä sovellus kattaa molemmat - tarkan BPM:n täydellisellä metronomilla iPhone & Androidlle.</p>
+                        <p class="faq-answer">BPM-sovellus asettaa tempon ja soittaa klikin. Tämä metronomi tekee molemmat, iPhonella ja Androidilla.</p>
                     </div>
                 </details>
             </div>
@@ -896,8 +908,8 @@
 
     <section class="cta-section">
         <div class="cta-card">
-            <h2 class="cta-title">Lataa metronomi-sovellus</h2>
-            <p class="cta-description">Lataa <a href="https://apps.apple.com/fi/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Metronomi - Musiikki tempo BPM</a> iPhone & Androidssa - BPM-metronomi muusikoille, jotka tarvitsevat tarkan ajoituksen harjoituksissa ja suorituskyvyssä.</p>
+            <h2 class="cta-title">Lataa metronomi</h2>
+            <p class="cta-description">Lataa <a href="https://apps.apple.com/fi/app/metronome-pro-tempo-bpm/id6755417459" class="app-store-link" target="_blank" rel="noopener noreferrer">Metronomi - Musiikki tempo BPM</a> iPhonelle ja Androidille. Metronomi muusikoille, jotka haluavat tasaisen tempon treeneissä ja keikalla.</p>
             <div class="cta-buttons">
                 <a href="https://apps.apple.com/fi/app/metronome-pro-tempo-bpm/id6755417459" target="_blank" rel="noopener noreferrer" class="store store-lg store-ios" aria-label="Lataa App Storesta">
                     <svg class="apple" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true"><path fill="currentColor" d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"></path></svg>
@@ -920,7 +932,7 @@
                     <div class="logo-circle">M</div>
                     <span class="logo-text">Metronomi - Musiikki tempo BPM</span>
                 </div>
-                                                                                                                                                                                                                                                                                                                                <div class="footer-lang">
+                                                                                                                                                                                                                                                                                                                                                                                                <div class="footer-lang">
                     <label for="lang-select" class="footer-lang-label">Kieli</label>
                     <select id="lang-select" class="lang-select" aria-label="Kieli">
                         <option value="/">EN</option>
